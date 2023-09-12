@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(routes); // Use your API routes
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/social-networkDB');
+mongoose.connect('mongodb://127.0.0.1:27017/social-networkDB');
 
 mongoose.connection.once('open', () => {
     console.log('Connected to MongoDB');
