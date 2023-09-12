@@ -25,9 +25,9 @@ const thoughtTexts = [
 ];
 
 const reactions = [
-    { reactionBody: 'Like', username: 'User1' },
-    { reactionBody: 'Love', username: 'User2' },
-    { reactionBody: 'Haha', username: 'User3' },
+    { reactionBody: 'Like', username: 'John' },
+    { reactionBody: 'Love', username: 'Alice' },
+    { reactionBody: 'Haha', username: 'Bob' },
     // Add more reactions as needed
 ];
 
