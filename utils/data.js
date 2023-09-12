@@ -1,17 +1,8 @@
-const names = [
-    'John',
-    'Alice',
-    'Bob',
-    'Ella',
-    'David',
-    'Sophia',
-    'Liam',
-    'Olivia',
-    'Emily',
-    'Michael',
-    'Emma',
-    'James',
-    // Add more names as needed
+const userData = [
+    { username: 'John', email: 'john@example.com' },
+    { username: 'Alice', email: 'alice@example.com' },
+    { username: 'Bob', email: 'bob@example.com' },
+    // Add more user data as needed
 ];
 
 const thoughtTexts = [
@@ -32,7 +23,7 @@ const reactions = [
 ];
 
 module.exports = {
-    names,
+    userData,
     thoughtTexts,
     reactions,
 };
