@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(routes); // Use your API routes
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/social-network', {
+mongoose.connect('mongodb://localhost/social-networkDB', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
